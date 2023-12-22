@@ -3,7 +3,7 @@ dotenv.config();
 import fetch from 'node-fetch';
 import { Telegraf } from 'telegraf';
 const BOT_TOKEN = "6338152450:AAHvhTzoM4a5V-Ai7YzkjDYFqgAP0xolT3o"; // process.env.BOT_TOKEN; // or use dotenv to load it from a .env file
-const bot = new Telegraf(6338152450:AAHvhTzoM4a5V-Ai7YzkjDYFqgAP0xolT3o);
+const bot = new Telegraf(BOT_TOKEN);
 
 let api = `https://worldbins-bins-api.vercel.app/api/`;
 
